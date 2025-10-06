@@ -127,3 +127,5 @@ As a rule of thumb, if `v` is computed as a polynomial of constants and other
 registers, it's probably better to use `Reg` than `NondetReg`. `Val`s computed
 nondeterministically or returned by externs can't be used in constraints without
 registerizing, so use `NondetReg` for such values.
+
+<!-- Auto-update: 2025-10-06T14:10:21.261491 -->
